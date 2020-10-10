@@ -16,7 +16,7 @@ a{
     background-color:#FFEDED;
     height: 100vh;
 }
-.login-container{
+.register-container{
     width: 840px;
     height: 520px;
     border-radius: 40px;
@@ -29,30 +29,34 @@ a{
     display: flex;
 
 }
-.login-container__right-box{
-    background-color:#FF847C;
+.register-container__right-box{
     height: 100%;
-    width: 50%;
+    width: 60%;
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
     position: relative;
     display: flex;
+    justify-content: space-around;
 
 }
-.login-container__left-box{
+.register-container__left-box{
+    background-color:#FF847C;
     height: 100%;
-    width: 50%;
+    width: 40%;
     display: flex;
     z-index: 0;
     position: relative;
     justify-content: space-around;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+
 
 }
-.login-container__login-box{
+.register-container__login-box{
     align-self: center;
 
 }
-.login-container__svg-wave_pink{
+.register-container__svg-wave_pink{
     position: absolute;
     z-index: 1;
     bottom: 0;
@@ -60,23 +64,23 @@ a{
     display: flex;
 
 }
-.login-container__under-header_red{
+.register-container__under-header_red{
     color:#E84A5F;
 }
-.login-container__under-header{
+.register-container__under-header{
     font-size: 18px;
 }
-.login-container__header{
+.register-container__header{
     font-size: 36px;
     line-height: 0px;
     font-weight: 600;
     margin-top: 0;
 }
-.login-container__input-box{
-    width: 75%;
+.register-container__input-box{
+    width: 115%;
     height: 20px;
 }
-.login-container__input-box input{
+.register-container__input-box input{
     width: 100%;
     height: 100%;
     border:none;
@@ -89,16 +93,17 @@ a{
 
 }
 
-.login-container__input-box input:focus{
+.register-container__input-box input:focus{
     outline:none ;
 }
 :focus::-webkit-input-placeholder {
     color: transparent;
     transition:0.3s;
 }
-.login-container__log-in-button-box{
+.register-container__log-in-button-box{
     background-color: #E84A5F;
-    width: 75%;
+    color: #FFFFFF;
+    width: 100%;
     height: 41px;
     border-radius:12px;
     -webkit-box-shadow: 0px 4px 12px 0px rgba(148,148,148,0.77);
@@ -107,29 +112,28 @@ a{
     display: flex;
     justify-content: space-between;
 }
-.login-container__log-in-button-box p{
-    color: #FFFFFF;
+.register-container__log-in-button-box p{
     margin-left: 10%;
     align-self: center;
     justify-self: flex-start;
 }
-.login-container__log-in-button-box-img{
+.register-container__log-in-button-box-img{
     align-self: center;
     margin-right: 10%;
 }
-.login-container__alternate-login-box{
+.register-container__alternate-login-box{
     margin-top: 12px;
 }
-.login_container__alternate-login{
+.register_container__alternate-login{
     padding-left: 5px;
 }
-.login-container__under-header-right{
+.register-container__under-header-right{
     color: white;
     font-size: 18px;
     align-self: center;
     text-align: center;
 }
-.login-container__header-right{
+.register-container__header-right{
     color: #FFFFFF;
     font-size: 36px;
     line-height: 0px;
@@ -138,23 +142,24 @@ a{
     align-self: center;
     text-align: center;
 }
-.login-container__svg-wave_white{
+.register-container__svg-wave_pink{
+    transform: rotate(180deg);
     position: absolute;
     z-index: 0;
 }
-.login-container__login-path-box{
+.register-container__register-path-box{
     display: flex;
     width: 100%;
     justify-content: center;
 }
-.login-container__login-path-box_second{
+.register-container__register-path-box_second{
     align-self: flex-end;
 }
-.login_container__log-in-button_right{
+.register_container__log-in-button_right{
     width: 50%;
     height: 41px;
 }
-.login-container__log-in-button-box_right{
+.register-container__log-in-button-box_right{
     width: 75%;
     height: 41px;
     display: flex;
@@ -162,6 +167,21 @@ a{
     border-radius:12px;
     border: 2px solid #FFFFFF;
     margin: 0 auto;
-}.login-container__login-path-box_container{
-    margin-top:180px;
+}.register-container__register-path-box_container{
+     margin-top:180px;
+ }
+ .register-container__svg-wave_white{
+     transform: rotate(180deg);
+     position: absolute;
+     top: 0;
+     left: 0;
+ }
+ .register-container__input-header{
+     margin-bottom: 3px;
+ }
+ .register-container__input-box img{
+     position: relative;
+     top: -20px;
+     left:150px;
+
  }

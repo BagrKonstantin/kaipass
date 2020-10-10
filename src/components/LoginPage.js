@@ -7,6 +7,8 @@ import {
     useHistory,
     Link,
 } from "react-router-dom";
+
+import '../login_style.css';
 import RegPage from "./RegPage";
 import facebook from '../images/svg/facebook.svg';
 import google_plus from '../images/svg/google-plus 1.svg';
@@ -41,65 +43,65 @@ const LoginPage = () => {
     return (
         <div>
             <div className="main">
-                <div className="register-container">
-                    <div className="register-container__left-box">
-                        <img src={svg_wave_pink} alt="" className="register-container__svg-wave_pink"/>
-                        <div className="register-container__login-box">
-                            <p className="register-container__header">Log in</p>
-                            <p className="register-container__under-header">To start using <span
-                                className="register-container__under-header_red">Kai</span>Pass you<br/> need to
+                <div className="login-container">
+                    <div className="login-container__left-box">
+                        <img src={svg_wave_pink} alt="" className="login-container__svg-wave_pink"/>
+                        <div className="login-container__login-box">
+                            <p className="login-container__header">Log in</p>
+                            <p className="login-container__under-header">To start using <span
+                                className="login-container__under-header_red">Kai</span>Pass you<br/> need to
                                 login.</p>
-                            <div className="register-container__input-block">
-                                <p className="register-container__input-header">Username</p>
-                                <div className="register-container__input-box">
+                            <div className="login-container__input-block">
+                                <p className="login-container__input-header">Username</p>
+                                <div className="login-container__input-box">
                                     <input placeholder="Type your username here" id='username' type="username"
                                            name="name"
                                            autoComplete="off" required/>
                                 </div>
                             </div>
-                            <div className="register-container__input-block">
-                                <p className="register-container__input-header">Password</p>
-                                <div className="register-container__input-box">
+                            <div className="login-container__input-block">
+                                <p className="login-container__input-header">Password</p>
+                                <div className="login-container__input-box">
                                     <input placeholder="Type your password here" id='psw' type="password" name="name"
                                            autoComplete="off" required/>
                                 </div>
                             </div>
-                            <p className="register_container__forgot-password">Forgot your password? Click here</p>
-                            <div className="register-container__log-in-button-box" onClick={handleClick}>
-                                <p className="register-container__log-in-button-box-text">Log in</p>
-                                <div className="register-container__log-in-button-box-img"><img
+                            <p className="login_container__forgot-password">Forgot your password? Click here</p>
+                            <div className="login-container__log-in-button-box" onClick={handleClick}>
+                                <p className="login-container__log-in-button-box-text">Log in</p>
+                                <div className="login-container__log-in-button-box-img"><img
                                     src={right_arrow} alt="" className=""/></div>
                             </div>
-                            <div className="register-container__alternate-login-box">
-                                <a href="" className="register_container__alternate-login_without-padding">
+                            <div className="login-container__alternate-login-box">
+                                <a href="" className="login_container__alternate-login_without-padding">
                                     <img src={google_plus} alt=""
-                                         className="register_container__alternate-login-item"/>
+                                         className="login_container__alternate-login-item"/>
                                 </a>
-                                <a href="" className="register_container__alternate-login">
+                                <a href="" className="login_container__alternate-login">
                                     <img src={facebook} alt=""
-                                         className="register_container__alternate-login-item"/>
+                                         className="login_container__alternate-login-item"/>
                                 </a>
-                                <a href="" className="register_container__alternate-login">
+                                <a href="" className="login_container__alternate-login">
                                     <img src={twitter} alt=""
-                                         className="register_container__alternate-login-item"/>
+                                         className="login_container__alternate-login-item"/>
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div className="register-container__right-box">
-                        <img src={svg_wave_white} alt="" className="register-container__svg-wave_white"/>
-                        <div className="register-container__register-path-box">
-                            <div className="register-container__register-path-box_container">
-                                <div className="register-container__register-path-box_second">
-                                    <p className="register-container__header-right">Register</p>
-                                    <p className="register-container__under-header-right">To connect with <span
-                                        className="register-container__under-header_red">Kai</span>Pass you<br/>need
+                    <div className="login-container__right-box">
+                        <img src={svg_wave_white} alt="" className="login-container__svg-wave_white"/>
+                        <div className="login-container__login-path-box">
+                            <div className="login-container__login-path-box_container">
+                                <div className="login-container__login-path-box_second">
+                                    <p className="login-container__header-right">Register</p>
+                                    <p className="login-container__under-header-right">To connect with <span
+                                        className="login-container__under-header_red">Kai</span>Pass you<br/>need
                                         to create your personal<br/> account.</p>
                                 </div>
-                                <Link to='/registration' className="register_container__log-in-button_right">
-                                    <div className="register-container__log-in-button-box_right">
-                                        <p className="register-container__log-in-button-box-text">Sign up</p>
-                                        <div className="register-container__log-in-button-box-img"><img
+                                <Link to='/registration' className="login_container__log-in-button_right">
+                                    <div className="login-container__log-in-button-box_right">
+                                        <p className="login-container__log-in-button-box-text">Sign up</p>
+                                        <div className="login-container__log-in-button-box-img"><img
                                             src={right_arrow} alt="" className=""/></div>
                                     </div>
                                 </Link>

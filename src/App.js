@@ -1,6 +1,4 @@
-import React from 'react';
-import './App.css';
-import './login_style.css'
+import React,{useState} from 'react';
 import {
     BrowserRouter as Router,
     Switch,
@@ -15,6 +13,12 @@ import RegPage from "./components/RegPage";
 
 
 function App() {
+    // const [state , useState] = useState(
+    //     {
+    //         user:null,
+    //
+    //     }
+    // );
     return (
         <Router>
             <Switch>

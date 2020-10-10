@@ -15,22 +15,17 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67911458-518b-493c-b29f-1ee3ea2f682a" name="Default Changelist" comment="login and reg full func">
+    <list default="true" id="67911458-518b-493c-b29f-1ee3ea2f682a" name="Default Changelist" comment="login and reg mvp">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KaiPass/CSS/login_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/login_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KaiPass/images/svg/facebook 1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/svg/facebook.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KaiPass/images/svg/google-plus 1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/svg/google-plus 1.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KaiPass/images/svg/right-arrow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/svg/right-arrow.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KaiPass/images/svg/svg-wave_pink.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/svg/svg-wave_pink.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KaiPass/images/svg/svg-wave_white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/svg/svg-wave_white.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KaiPass/images/svg/twitter 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/svg/twitter 1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KaiPass/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/KaiPass/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KaiPass/CSS/registration_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/registration_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KaiPass/images/svg/eye-close.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/svg/eye-close.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KaiPass/images/svg/eye-open.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/svg/eye-open.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KaiPass/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/KaiPass/registration.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bd.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/bd.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/LoginPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LoginPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/RegPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RegPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/login_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/login_style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,9 +60,10 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vvaru\WebstormProjects\kaipass\src\images\svg" />
+      <recent name="C:\Users\vvaru\WebstormProjects\kaipass\src\components" />
       <recent name="C:\Users\vvaru\WebstormProjects\kaipass\src" />
       <recent name="C:\Users\vvaru\WebstormProjects\kaipass" />
-      <recent name="C:\Users\vvaru\WebstormProjects\kaipass\src\components" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -81,7 +77,7 @@
       <workItem from="1602270548109" duration="13570000" />
       <workItem from="1602311621202" duration="299000" />
       <workItem from="1602311930670" duration="424000" />
-      <workItem from="1602312360228" duration="14016000" />
+      <workItem from="1602312360228" duration="27223000" />
     </task>
     <task id="LOCAL-00001" summary="first init">
       <created>1602270726316</created>
@@ -118,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602317899705</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="login and reg mvp">
+      <created>1602346300555</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602346300555</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,7 +143,8 @@
     <MESSAGE value="first init" />
     <MESSAGE value="login form prot" />
     <MESSAGE value="login and reg full func" />
-    <option name="LAST_COMMIT_MESSAGE" value="login and reg full func" />
+    <MESSAGE value="login and reg mvp" />
+    <option name="LAST_COMMIT_MESSAGE" value="login and reg mvp" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1602272689617">
@@ -163,13 +167,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602314114028" />
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1602317906625">
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1602346302393">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602317906625" />
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602333043897">
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602346302393" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602348239403">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602333043897" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602348239403" />
+    <state x="222" y="200" width="1707" height="717" key="dock-window-1" timestamp="1602352434730">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="222" y="200" width="1707" height="717" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1602352434730" />
   </component>
 </project>
