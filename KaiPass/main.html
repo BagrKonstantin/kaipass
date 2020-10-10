@@ -10,17 +10,129 @@
     <div class="main">
         <div class="card-box-main">
             <div class="card-box">
-                <div id="education-card" onclick="flexibleEducationBox()" class="card-box__item card-box__item_education">
-                    <div class="card-box__item-box card-box__item-box-education"></div>
+                <div id="education-card" class="card-box__item card-box__item_education">
+                    <div id="card-box-education" onclick="cardBoxEducationFlip()" class="card-box__item-box card-box__item-box-education">
+                        <div class="card-box__item-box-education_front card-box__item-box_front">
+                            <div class="card-box__percent-box">
+                                <div class="card-box__percent-box-item">
+                                    <section>
+                                        <svg class="card-box__percent-box-item-education">
+                                            <circle cx="70" cy="70" r="65"></circle>
+                                            <circle cx="70" cy="70" r="65"></circle>
+                                        </svg>
+                                        <div class="card-box__percent-box-number">
+                                            <p>25<span>%</span></p>
+                                        </div>
+                                    </section>
+                                    <p class="card-box__percent-box-text">Progress</p>
+                                </div>
+                            </div>
+                            <div class="card-box__tasks-box">
+                                <div class="card-box__tasks-box-text">
+                                    <h3 class="card-box__tasks-box-text-header">Education</h3>
+                                    <p class="card-box__tasks-box-text-quest"><span class="card-box__tasks-box-text-quest_pink">2*</span> Daily - in process</p>
+                                    <p class="card-box__tasks-box-text-quest"><span class="card-box__tasks-box-text-quest_pink">1*</span> Weekly - in process</p>
+                                    <p class="card-box__tasks-box-text-quest"><span class="card-box__tasks-box-text-quest_pink">1*</span> Mounthly - in process</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div   class="card-box__item-box-education_back card-box__item-box_back">
+                            aadsasd
+                        </div>
+                    </div>
                 </div>
-                <div id="sport-card" onclick="flexibleSportBox()" class="card-box__item card-box__item_sport">
-                    <div class="card-box__item-box card-box__item-box-sport"></div>
+                <div id="sport-card" class="card-box__item card-box__item_sport">
+                    <div id="card-box-sport" onclick="cardBoxSportFlip()" class="card-box__item-box card-box__item-box-sport">
+                        <div class="card-box__item-box-sport_front card-box__item-box_front">
+                            <div class="card-box__percent-box">
+                                <div class="card-box__percent-box-item">
+                                    <section>
+                                        <svg class="card-box__percent-box-item-sport">
+                                            <circle cx="70" cy="70" r="65"></circle>
+                                            <circle cx="70" cy="70" r="65"></circle>
+                                        </svg>
+                                        <div class="card-box__percent-box-number">
+                                            <p>25<span>%</span></p>
+                                        </div>
+                                    </section>
+                                    <p class="card-box__percent-box-text">Progress</p>
+                                </div>
+                            </div>
+                            <div class="card-box__tasks-box">
+                                <div class="card-box__tasks-box-text">
+                                    <h3 class="card-box__tasks-box-text-header">Sport</h3>
+                                    <p class="card-box__tasks-box-text-quest"><span class="card-box__tasks-box-text-quest_pink">2*</span> Daily - in process</p>
+                                    <p class="card-box__tasks-box-text-quest"><span class="card-box__tasks-box-text-quest_pink">1*</span> Weekly - in process</p>
+                                    <p class="card-box__tasks-box-text-quest"><span class="card-box__tasks-box-text-quest_pink">1*</span> Mounthly - in process</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-box__item-box-sport_back card-box__item-box_back">
+
+                        </div>
+                    </div>
                 </div>
-                <div id="entertainment-card" onclick="flexibleEntertainmentBox()" class="card-box__item card-box__item_entertainment">
-                    <div class="card-box__item-box card-box__item-box-entertainment"></div>
+                <div id="entertainment-card" class="card-box__item card-box__item_entertainment">
+                    <div id="card-box-entertainment" onclick="cardBoxEntertainmentFlip()" class="card-box__item-box card-box__item-box-entertainment">
+                        <div class="card-box__item-box-entertainment_front card-box__item-box_front">
+                            <div class="card-box__percent-box">
+                                <div class="card-box__percent-box-item">
+                                    <section>
+                                        <svg class="card-box__percent-box-item-entertainment">
+                                            <circle cx="70" cy="70" r="65"></circle>
+                                            <circle cx="70" cy="70" r="65"></circle>
+                                        </svg>
+                                        <div class="card-box__percent-box-number">
+                                            <p>25<span>%</span></p>
+                                        </div>
+                                    </section>
+                                    <p class="card-box__percent-box-text">Progress</p>
+                                </div>
+                            </div>
+                            <div class="card-box__tasks-box">
+                                <div class="card-box__tasks-box-text">
+                                    <h3 class="card-box__tasks-box-text-header">Entertainment</h3>
+                                    <p class="card-box__tasks-box-text-quest"><span class="card-box__tasks-box-text-quest_pink">2*</span> Daily - in process</p>
+                                    <p class="card-box__tasks-box-text-quest"><span class="card-box__tasks-box-text-quest_pink">1*</span> Weekly - in process</p>
+                                    <p class="card-box__tasks-box-text-quest"><span class="card-box__tasks-box-text-quest_pink">1*</span> Mounthly - in process</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-box__item-box-entertainment_back card-box__item-box_back">
+
+                        </div>
+                    </div>
                 </div>
-                <div id="householding-card" onclick="flexibleHouseholdingBox()" class="card-box__item card-box__item_householding">
-                    <div class="card-box__item-box card-box__item-box-householding"></div>
+                <div id="householding-card" class="card-box__item card-box__item_householding">
+                    <div id="card-box-householding" onclick="cardBoxHouseholdingFlip()" class="card-box__item-box card-box__item-box-householding">
+                        <div class="card-box__item-box-householding_front card-box__item-box_front">
+                            <div class="card-box__percent-box">
+                                <div class="card-box__percent-box-item">
+                                    <section>
+                                        <svg class="card-box__percent-box-item-householding">
+                                            <circle cx="70" cy="70" r="65"></circle>
+                                            <circle cx="70" cy="70" r="65"></circle>
+                                        </svg>
+                                        <div class="card-box__percent-box-number">
+                                            <p>25<span>%</span></p>
+                                        </div>
+                                    </section>
+                                    <p class="card-box__percent-box-text">Progress</p>
+                                </div>
+                            </div>
+                            <div class="card-box__tasks-box">
+                                <div class="card-box__tasks-box-text">
+                                    <h3 class="card-box__tasks-box-text-header">Householding</h3>
+                                    <p class="card-box__tasks-box-text-quest"><span class="card-box__tasks-box-text-quest_pink">2*</span> Daily - in process</p>
+                                    <p class="card-box__tasks-box-text-quest"><span class="card-box__tasks-box-text-quest_pink">1*</span> Weekly - in process</p>
+                                    <p class="card-box__tasks-box-text-quest"><span class="card-box__tasks-box-text-quest_pink">1*</span> Mounthly - in process</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-box__item-box-householding_back card-box__item-box_back">
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -29,63 +141,60 @@
 
 
     <script>
-        let educaion_check = 1;
+
         let sport_check = 1;
         let entertainment_check = 1;
         let householding_check = 1;
+        let educaion_check = 1;
+        function cardBoxEducationFlip(){
 
-        function flexibleEducationBox() {
+            if (educaion_check > 0){
+                document.getElementById("card-box-education").style.transform = "rotateY(180deg)";
+                educaion_check *= -1;
 
-           if (educaion_check > 0){
-
-               educaion_check *= -1;
-
-           }
-           else {
-
-               educaion_check *= -1;
-           }
-
+            }
+            else {
+                document.getElementById("card-box-education").style.transform = "rotateY(360deg)";
+                educaion_check *= -1;
+            }
         }
-        function flexibleSportBox() {
 
+
+        function cardBoxSportFlip() {
 
             if (sport_check > 0){
-
-
+                document.getElementById("card-box-sport").style.transform = "rotateY(180deg)";
                 sport_check *= -1;
             }
             else {
-
+                document.getElementById("card-box-sport").style.transform = "rotateY(360deg)";
                 sport_check *= -1;
             }
 
-        }
-        function flexibleEntertainmentBox() {
+        } function cardBoxEntertainmentFlip() {
 
-
-            if (entertainment_check > 0){
-
+            if (entertainment_check> 0){
+                document.getElementById("card-box-entertainment").style.transform = "rotateY(180deg)";
                 entertainment_check *= -1;
             }
             else {
-
+                document.getElementById("card-box-entertainment").style.transform = "rotateY(360deg)";
                 entertainment_check *= -1;
             }
 
-        }
-        function flexibleHouseholdingBox() {
+        } function cardBoxHouseholdingFlip() {
 
             if (householding_check > 0){
-
+                document.getElementById("card-box-householding").style.transform = "rotateY(180deg)";
                 householding_check *= -1;
             }
             else {
-
+                document.getElementById("card-box-householding").style.transform = "rotateY(360deg)";
                 householding_check *= -1;
             }
 
         }
+
     </script>
 </body>
 </html>
