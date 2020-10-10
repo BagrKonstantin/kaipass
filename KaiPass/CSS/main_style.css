@@ -2,6 +2,8 @@
     max-width: 1224px;
     margin: 0 auto;
     transition: 0.5s;
+    font-family: 'Rubik', sans-serif;
+    color: #2A363B;
 }
 .card-box{
     display: grid;
@@ -14,14 +16,19 @@
 .card-box__item{
     border-radius: 17px;
 
+    perspective: 800px;
     transition: 0.5s;
     display: flex;
 }
 .card-box__item-box{
+
     width: 95%;
     height: 90%;
     background-color: #FFFFFF;
     border-radius: 17px;
+    transform-style: preserve-3d;
+    transition: 0.8s ease;
+    cursor: pointer;
 }
 .card-box__item_householding{
     justify-content: center;
@@ -59,4 +66,119 @@
     -webkit-box-shadow: 0px 4px 12px 0px rgba(148,148,148,0.77);
     -moz-box-shadow: 0px 4px 12px 0px rgba(148,148,148,0.77);
     box-shadow: 0px 4px 12px 0px rgba(148,148,148,0.77);
+}
+.card-box__item-box_front{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    color: #2A363B;
+    border-radius: 17px;
+    display: flex;
+
+}
+.card-box__item-box_back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    color: #2A363B;
+    border-radius: 17px;
+    transform: rotateY(180deg);
+}
+.card-box__percent-box-item svg{
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+.card-box__percent-box-item svg circle{
+    width: 150px;
+    height: 150px;
+    fill: none;
+    stroke-width: 15;
+    stroke: #000;
+    transform: translate(5px,5px);
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+
+}
+.card-box__percent-box-item svg circle:nth-child(1){
+    stroke-dashoffset: 0;
+    stroke:#e5e5e5;
+
+}
+.card-box__percent-box-item .card-box__percent-box-item-education circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * (25 - (25/ 14))) / 100);
+    stroke: #2F80ED;
+}
+.card-box__percent-box-item .card-box__percent-box-item-sport circle:nth-child(2) {
+    stroke-dashoffset: calc(440 - (440 * (25 - (25/ 14))) / 100);;
+    stroke: #EB5757;
+}
+
+.card-box__percent-box-item .card-box__percent-box-item-entertainment circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * (25 - (25/ 14))) / 100);;
+    stroke: #9B51E0;
+}
+
+.card-box__percent-box-item .card-box__percent-box-item-householding circle:nth-child(2) {
+    stroke-dashoffset: calc(440 - (440 * (25 - (25/ 14))) / 100);;
+    stroke: #27AE60;
+}
+
+.card-box__percent-box-number{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:600;
+    font-size: 36px;
+}
+.card-box__percent-box{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-box__percent-box-item section{
+    width: 150px;
+    height: 150px;
+}
+.card-box__percent-box-text{
+    font-size: 24px;
+    margin-top: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 600;
+
+}
+.card-box__tasks-box-text{
+    align-self: center;
+}
+.card-box__tasks-box{
+    height: 100%;
+    display: flex;
+}
+.card-box__tasks-box-text-header{
+    margin-top: 0;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 15px;
+
+}
+.card-box__tasks-box-text-quest{
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 12px;
+
+}
+.card-box__tasks-box-text-quest_pink{
+    color: #E84A5F;
+    font-weight: 600;
 }
