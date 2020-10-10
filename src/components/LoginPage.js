@@ -1,18 +1,27 @@
 import React from 'react';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link,
+} from "react-router-dom";
 
 const LoginPage = () => {
-    let a = ' ';
     const handleClick = () =>{
-        let b = (document.getElementById('text').value)
-        a = b;
+        console.log(document.getElementById('email').value);
+        console.log(document.getElementById('psw').value);
     }
-    console.log(a);
     return (
         <div>
-            <form name="publish">
-                <input type="text" name="message" id="text" placeholder="введите сообщение"/>
-                <button value="отправить" onClick={handleClick}/>
+            <form name="">
+                <input type="text" name="" id="email" placeholder="введите email"/>
+                <input type="password" name="" id="psw" placeholder="введите пароль"/>
             </form>
+            <Link to='/'><button value="отправить" onClick={handleClick}/></Link>
+            <Switch>
+                <Route path="/">
+                </Route>
+            </Switch>
         </div>
     );
 };
