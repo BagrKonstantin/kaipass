@@ -1,12 +1,15 @@
 import React from 'react';
 import {Link, Route, Switch} from "react-router-dom";
+
 import LoginPage from "./LoginPage";
+import {users} from "../bd";
 
 const RegPage = () => {
     const handleClick = () => {
-        console.log(document.getElementById('email').value);
+        console.log(document.getElementById('username').value);
         if(document.getElementById('psw').value===document.getElementById('psw_re').value){
-            console.log(true);
+            users[document.getElementById('username').value] = document.getElementById('psw').value;
+            console.log(users);
         }
     };
     const showOrHidePassword = (props) => {
@@ -21,7 +24,7 @@ const RegPage = () => {
         <div>
 
             <form name="">
-                <input type="text" name="" id="email" placeholder="введите email"/>
+                <input type="text" name="" id="username" placeholder="введите email"/>
                 <input type="password" name="" id="psw" className='psw' placeholder="введите пароль"/>
                 <input type='checkbox' id='toggle' onClick={() => showOrHidePassword('psw')}/>
                 <input type="password" name="" id="psw_re" className='psw' placeholder="повторите пароль"/>

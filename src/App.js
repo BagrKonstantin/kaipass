@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import './login_style.css'
 import {
     BrowserRouter as Router,
     Switch,
@@ -12,12 +13,10 @@ import {
 import LoginPage from './components/LoginPage';
 import RegPage from "./components/RegPage";
 
+
 function App() {
     return (
         <Router>
-            <div className='vvv'>
-                <Link to="/login">Home</Link>
-            </div>
             <Switch>
                 <Route path="/login">
                    <LoginPage />
