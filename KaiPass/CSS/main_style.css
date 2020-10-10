@@ -1,9 +1,26 @@
+body{
+    margin: 0;
+
+}
+.back-img-absolute{
+    position: absolute;
+
+    width: 100%;
+    height: 100vh;
+}
 .main{
-    max-width: 1224px;
+    max-width: 100%;
     margin: 0 auto;
     transition: 0.5s;
     font-family: 'Rubik', sans-serif;
     color: #2A363B;
+    box-sizing: border-box;
+}
+input:focus{
+    outline:none;
+}
+input{
+    outline: none;
 }
 .card-box{
     display: grid;
@@ -112,17 +129,17 @@
     stroke: #2F80ED;
 }
 .card-box__percent-box-item .card-box__percent-box-item-sport circle:nth-child(2) {
-    stroke-dashoffset: calc(440 - (440 * (25 - (25/ 14))) / 100);;
+    stroke-dashoffset: calc(440 - (440 * (50 - (50/ 14))) / 100);;
     stroke: #EB5757;
 }
 
 .card-box__percent-box-item .card-box__percent-box-item-entertainment circle:nth-child(2){
-    stroke-dashoffset: calc(440 - (440 * (25 - (25/ 14))) / 100);;
+    stroke-dashoffset: calc(440 - (440 * (75 - (75/ 14))) / 100);;
     stroke: #9B51E0;
 }
 
 .card-box__percent-box-item .card-box__percent-box-item-householding circle:nth-child(2) {
-    stroke-dashoffset: calc(440 - (440 * (25 - (25/ 14))) / 100);;
+    stroke-dashoffset: calc(440 - (440 * (100 - (100/ 14))) / 100);;
     stroke: #27AE60;
 }
 
@@ -181,4 +198,42 @@
 .card-box__tasks-box-text-quest_pink{
     color: #E84A5F;
     font-weight: 600;
+}
+.card-box__text-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: 25%;
+    width: 90%;
+    margin-left: 10%;
+    transition: 0.5s;
+    grid-template-areas: "da" "da" "we" "mo";
+}
+.card-box__daily-tasks{
+    grid-area: da;
+
+}
+.card-box__weekly-tasks{
+    grid-area: we;
+}
+.card-box__monthly-tasks{
+    grid-area: mo;
+}
+.card-box__tasks-header{
+    font-size: 24px;
+}
+.battle-pass-box{
+    height: 100vh;
+    max-width: 1224px;
+    margin: 0 auto;
+    display: flex;
+    align-content: flex-end;
+}
+.flex-end{
+    align-self: flex-end;
+    margin-bottom:4%;
+}
+.card-box-main{
+
+    max-width: 1224px;
+    margin:60px auto;
 }
