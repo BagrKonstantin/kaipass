@@ -10,6 +10,7 @@ import {
 } from "react-router-dom";
 
 import LoginPage from './components/LoginPage';
+import RegPage from "./components/RegPage";
 
 function App() {
     return (
@@ -19,7 +20,10 @@ function App() {
             </div>
             <Switch>
                 <Route path="/login">
-                    <LoginPage />
+                   <LoginPage />
+                </Route>
+                <Route path='/registration'>
+                    <RegPage />
                 </Route>
             </Switch>
         </Router>
