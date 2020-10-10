@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KaiPass</title>
+    <link rel="stylesheet" href="CSS/main_style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="card-box-main">
+            <div class="card-box">
+                <div id="education-card" onclick="flexibleEducationBox()" class="card-box__item card-box__item_education">
+                    <div class="card-box__item-box card-box__item-box-education"></div>
+                </div>
+                <div id="sport-card" onclick="flexibleSportBox()" class="card-box__item card-box__item_sport">
+                    <div class="card-box__item-box card-box__item-box-sport"></div>
+                </div>
+                <div id="entertainment-card" onclick="flexibleEntertainmentBox()" class="card-box__item card-box__item_entertainment">
+                    <div class="card-box__item-box card-box__item-box-entertainment"></div>
+                </div>
+                <div id="householding-card" onclick="flexibleHouseholdingBox()" class="card-box__item card-box__item_householding">
+                    <div class="card-box__item-box card-box__item-box-householding"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        let educaion_check = 1;
+        let sport_check = 1;
+        let entertainment_check = 1;
+        let householding_check = 1;
+
+        function flexibleEducationBox() {
+
+           if (educaion_check > 0){
+
+               educaion_check *= -1;
+
+           }
+           else {
+
+               educaion_check *= -1;
+           }
+
+        }
+        function flexibleSportBox() {
+
+
+            if (sport_check > 0){
+
+
+                sport_check *= -1;
+            }
+            else {
+
+                sport_check *= -1;
+            }
+
+        }
+        function flexibleEntertainmentBox() {
+
+
+            if (entertainment_check > 0){
+
+                entertainment_check *= -1;
+            }
+            else {
+
+                entertainment_check *= -1;
+            }
+
+        }
+        function flexibleHouseholdingBox() {
+
+            if (householding_check > 0){
+
+                householding_check *= -1;
+            }
+            else {
+
+                householding_check *= -1;
+            }
+
+        }
+    </script>
+</body>
+</html>
