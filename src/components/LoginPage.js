@@ -8,7 +8,7 @@ import {
     Link,
 } from "react-router-dom";
 
-import '../login_style.css';
+import '../main_style.css';
 import RegPage from "./RegPage";
 import facebook from '../images/svg/facebook.svg';
 import google_plus from '../images/svg/google-plus 1.svg';
@@ -42,7 +42,7 @@ const LoginPage = () => {
     };
     return (
         <div>
-            <div className="main">
+            <div className="main-login">
                 <div className="login-container">
                     <div className="login-container__left-box">
                         <img src={svg_wave_pink} alt="" className="login-container__svg-wave_pink"/>

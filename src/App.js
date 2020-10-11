@@ -10,23 +10,22 @@ import {
 
 import LoginPage from './components/LoginPage';
 import RegPage from "./components/RegPage";
+import Main from "./components/Main";
+
 
 
 function App() {
-    // const [state , useState] = useState(
-    //     {
-    //         user:null,
-    //
-    //     }
-    // );
     return (
         <Router>
             <Switch>
                 <Route path="/login">
-                   <LoginPage />
+                    <LoginPage />
                 </Route>
-                <Route path='/registration'>
+                <Route path="/registration">
                     <RegPage />
+                </Route>
+                <Route path="/main">
+                    <Main />
                 </Route>
             </Switch>
         </Router>

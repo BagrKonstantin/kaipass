@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link, Route, Switch, useHistory} from "react-router-dom";
-import '../registration_style.css'
+import '../main_style.css'
 
 import facebook from '../images/svg/facebook.svg';
 import google_plus from '../images/svg/google-plus 1.svg';
@@ -41,7 +41,7 @@ const RegPage = () => {
     };
     return (
         <div>
-            <div className="main">
+            <div className="main-registration">
                 <div className="register-container">
                     <div className="register-container__left-box">
                         <img src={svg_wave_white} alt=""
