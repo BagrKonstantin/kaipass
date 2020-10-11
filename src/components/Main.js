@@ -87,16 +87,52 @@ const Main = (props) => {
                                                 className="card-box__tasks-box-text-quest_pink">2*</span> Daily - in
                                                 process</p>
                                             <p className="card-box__tasks-box-text-quest"><span
-                                                className="card-box__tasks-box-text-quest_pink">1*</span> Weekly -
-                                                in process</p>
+                                                className="card-box__tasks-box-text-quest_pink">1*</span> Weekly - in
+                                                process</p>
                                             <p className="card-box__tasks-box-text-quest"><span
-                                                className="card-box__tasks-box-text-quest_pink">1*</span> Monthly -
-                                                in process</p>
+                                                className="card-box__tasks-box-text-quest_pink">1*</span> Monthly - in
+                                                process</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="card-box__item-box-education_back card-box__item-box_back">
-                                    aadsasd
+                                    <div className="card-box__text-container">
+                                        <div className="card-box__daily-tasks">
+                                            <div className="card-box__tasks-header"><p>Daily</p></div>
+                                            <div className="card-box__tasks-text-box">
+                                                <label>
+                                                    <input type="checkbox"/>
+                                                        <i></i>
+                                                        <span>Write a haiku</span>
+                                                </label>
+                                                <label>
+                                                    <input type="checkbox"/>
+                                                        <i></i>
+                                                        <span>Leave movie review you watched lately</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div className="card-box__weekly-tasks">
+                                            <div className="card-box__tasks-header"><p>Weekly</p></div>
+                                            <div className="card-box__tasks-text-box">
+                                                <label>
+                                                    <input type="checkbox"/>
+                                                        <i></i>
+                                                        <span>Watch documentary about bees</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div className="card-box__monthly-tasks">
+                                            <div className="card-box__tasks-header"><p>Monthly</p></div>
+                                            <div className="card-box__tasks-text-box">
+                                                <label>
+                                                    <input type="checkbox"/>
+                                                        <i></i>
+                                                        <span>Learn how to play a musical instrument available to you</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -125,16 +161,52 @@ const Main = (props) => {
                                                 className="card-box__tasks-box-text-quest_pink">2*</span> Daily - in
                                                 process</p>
                                             <p className="card-box__tasks-box-text-quest"><span
-                                                className="card-box__tasks-box-text-quest_pink">1*</span> Weekly -
-                                                in process</p>
+                                                className="card-box__tasks-box-text-quest_pink">1*</span> Weekly - in
+                                                process</p>
                                             <p className="card-box__tasks-box-text-quest"><span
-                                                className="card-box__tasks-box-text-quest_pink">1*</span> Monthly -
-                                                in process</p>
+                                                className="card-box__tasks-box-text-quest_pink">1*</span> Monthly - in
+                                                process</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="card-box__item-box-sport_back card-box__item-box_back">
-
+                                    <div className="card-box__text-container">
+                                        <div className="card-box__daily-tasks">
+                                            <div className="card-box__tasks-header"><p>Daily</p></div>
+                                            <div className="card-box__tasks-text-box">
+                                                <label>
+                                                    <input type="checkbox"/>
+                                                        <i></i>
+                                                        <span>Do 20-40 push-ups</span>
+                                                </label>
+                                                <label>
+                                                    <input type="checkbox"/>
+                                                        <i></i>
+                                                        <span>Jog for 20 minutes</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div className="card-box__weekly-tasks">
+                                            <div className="card-box__tasks-header"><p>Weekly</p></div>
+                                            <div className="card-box__tasks-text-box">
+                                                <label>
+                                                    <input type="checkbox"/>
+                                                        <i></i>
+                                                        <span>Improve your sleep pattern</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div className="card-box__monthly-tasks">
+                                            <div className="card-box__tasks-header"><p>Monthly</p></div>
+                                            <div className="card-box__tasks-text-box">
+                                                <label>
+                                                    <input type="checkbox"/>
+                                                        <i></i>
+                                                        <span>Do daily morning exercises</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -163,16 +235,52 @@ const Main = (props) => {
                                                 className="card-box__tasks-box-text-quest_pink">2*</span> Daily - in
                                                 process</p>
                                             <p className="card-box__tasks-box-text-quest"><span
-                                                className="card-box__tasks-box-text-quest_pink">1*</span> Weekly -
-                                                in process</p>
+                                                className="card-box__tasks-box-text-quest_pink">1*</span> Weekly - in
+                                                process</p>
                                             <p className="card-box__tasks-box-text-quest"><span
-                                                className="card-box__tasks-box-text-quest_pink">1*</span> Monthly -
-                                                in process</p>
+                                                className="card-box__tasks-box-text-quest_pink">1*</span> Monthly - in
+                                                process</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="card-box__item-box-entertainment_back card-box__item-box_back">
-
+                                    <div className="card-box__text-container">
+                                        <div className="card-box__daily-tasks">
+                                            <div className="card-box__tasks-header"><p>Daily</p></div>
+                                            <div className="card-box__tasks-text-box">
+                                                <label>
+                                                    <input type="checkbox"/>
+                                                        <i></i>
+                                                        <span>Practice in origami</span>
+                                                </label>
+                                                <label>
+                                                    <input type="checkbox"/>
+                                                        <i></i>
+                                                        <span>Watch a movie (next step in Education)</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div className="card-box__weekly-tasks">
+                                            <div className="card-box__tasks-header"><p>Weekly</p></div>
+                                            <div className="card-box__tasks-text-box">
+                                                <label>
+                                                    <input type="checkbox"/>
+                                                        <i></i>
+                                                        <span>Learn how to cook pancakes</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div className="card-box__monthly-tasks">
+                                            <div className="card-box__tasks-header"><p>Monthly</p></div>
+                                            <div className="card-box__tasks-text-box">
+                                                <label>
+                                                    <input type="checkbox"/>
+                                                        <i></i>
+                                                        <span>Try to meditate</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -201,11 +309,11 @@ const Main = (props) => {
                                                 className="card-box__tasks-box-text-quest_pink">2*</span> Daily - in
                                                 process</p>
                                             <p className="card-box__tasks-box-text-quest"><span
-                                                className="card-box__tasks-box-text-quest_pink">1*</span> Weekly -
-                                                in process</p>
+                                                className="card-box__tasks-box-text-quest_pink">1*</span> Weekly - in
+                                                process</p>
                                             <p className="card-box__tasks-box-text-quest"><span
-                                                className="card-box__tasks-box-text-quest_pink">1*</span> Monthly -
-                                                in process</p>
+                                                className="card-box__tasks-box-text-quest_pink">1*</span> Monthly - in
+                                                process</p>
                                         </div>
                                     </div>
                                 </div>
@@ -213,12 +321,38 @@ const Main = (props) => {
                                     <div className="card-box__text-container">
                                         <div className="card-box__daily-tasks">
                                             <div className="card-box__tasks-header"><p>Daily</p></div>
+                                            <div className="card-box__tasks-text-box">
+                                                <label>
+                                                    <input type="checkbox"/>
+                                                        <i></i>
+                                                        <span>Delete unnecessary pictures from your phone</span>
+                                                </label>
+                                                <label>
+                                                    <input type="checkbox"/>
+                                                        <i></i>
+                                                        <span>Clean your room</span>
+                                                </label>
+                                            </div>
                                         </div>
                                         <div className="card-box__weekly-tasks">
                                             <div className="card-box__tasks-header"><p>Weekly</p></div>
+                                            <div className="card-box__tasks-text-box">
+                                                <label>
+                                                    <input type="checkbox"/>
+                                                        <i></i>
+                                                        <span>Keep home clean all week long</span>
+                                                </label>
+                                            </div>
                                         </div>
                                         <div className="card-box__monthly-tasks">
                                             <div className="card-box__tasks-header"><p>Monthly</p></div>
+                                            <div className="card-box__tasks-text-box">
+                                                <label>
+                                                    <input type="checkbox"/>
+                                                        <i></i>
+                                                        <span>Take care of your home plants</span>
+                                                </label>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

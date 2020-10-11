@@ -448,6 +448,7 @@ input{
     color: #2A363B;
     border-radius: 17px;
     transform: rotateY(180deg);
+    display: flex;
 }
 .card-box__percent-box-item svg{
     position: relative;
@@ -463,6 +464,7 @@ input{
     transform: translate(5px,5px);
     stroke-dasharray: 440;
     stroke-dashoffset: 440;
+    transition:transform 0.5s;
 
 }
 .card-box__percent-box-item svg circle:nth-child(1){
@@ -531,7 +533,7 @@ input{
     margin-top: 0;
     font-size: 30px;
     font-weight: 600;
-    margin-bottom: 15px;
+    margin-bottom: 7px;
 
 }
 .card-box__tasks-box-text-quest{
@@ -546,13 +548,13 @@ input{
     font-weight: 600;
 }
 .card-box__text-container{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-auto-rows: 25%;
+    display: flex;
     width: 90%;
     margin-left: 10%;
     transition: 0.5s;
-    grid-template-areas: "da" "da" "we" "mo";
+    flex-direction: column;
+    margin-top: 35px;
+
 }
 .card-box__daily-tasks{
     grid-area: da;
@@ -618,6 +620,70 @@ input{
     -moz-box-shadow: 0px 4px 12px 0px rgba(148,148,148,0.77);
     box-shadow: 0px 4px 12px 0px rgba(148,148,148,0.77);
 }
-.header input:checked + .wrapper_nav {
+
+/*CheckAnimation*/
+
+.card-box__tasks-text-box label{
+    position:relative;
     display: block;
+    cursor: pointer;
+    margin-bottom: 3px;
+}
+.card-box__tasks-text-box span{
+    cursor: pointer;
+}
+.card-box__tasks-text-box input[type="checkbox"]{
+    -webkit-appearance: none;
+}
+.card-box__tasks-text-box i{
+    position: absolute;
+    top: 0;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #2A363B;
+    transition:0.5s;
+
+}
+.card-box__tasks-text-box input[type="checkbox"]:checked ~ i{
+    top: 1px;
+    border-top: none;
+    border-right: none;
+    height: 10px;
+    width: 15px;
+    transform:rotate(-45deg);
+    transition: transform 0.5s;
+}
+.card-box__tasks-text-box span{
+    position: relative;
+    left: 40px;
+    transition: 0.5s;
+}
+.card-box__tasks-text-box span:before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #2A363B;
+    transform: translateY(-50%) scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s;
+}
+.card-box__tasks-text-box input[type="checkbox"]:checked ~ span:before{
+    transform: translateY(-50%) scaleX(1);
+    transform-origin: left;
+    transition: transform 0.5s;
+}
+.card-box__tasks-text-box input[type="checkbox"]:checked ~ span{
+    color: #869791;
+}
+/********************************/
+
+.card-box__tasks-header p{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 12px;
 }
