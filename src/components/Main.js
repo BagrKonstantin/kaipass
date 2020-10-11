@@ -1,8 +1,5 @@
 import React from 'react';
 import '../main_style.css';
-import '../owl.carousel.css';
-import '../owl.theme.default.css';
-import '../owl.theme.green.css';
 import mountain from '../images/background_fudzi.png';
 
 const Main = (props) => {
